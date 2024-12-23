@@ -47,14 +47,15 @@ const loadTasks = () => {
         taskList.appendChild(taskItem);
     });
 };
+document.addEventListener('DOMContentLoaded', () => {
+    const userLanguage = navigator.language || navigator.userLanguage;
+    const currentPage = window.location.pathname.split('/').pop();
 
-const userLanguage = navigator.language || navigator.userLanguage;
-const currentPage = window.location.pathname.split('/').pop();
-
-if (userLanguage.startsWith('en') && currentPage !== 'index-en.html') {
-    window.location.href = 'index-en.html';
-    return;
-}
+    if (userLanguage.startsWith('en') && currentPage !== 'index-en.html') {
+        window.location.href = 'index-en.html';
+        return;
+    }
+});
 
 addTaskButton.addEventListener('click', addTask);
 document.addEventListener('DOMContentLoaded', loadTasks);
