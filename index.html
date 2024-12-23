@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tarefas</title>
+    <title data-i18n-key="pageTitle">Lista de Tarefas</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="container">
-        <h1>Lista de Tarefas</h1>
+        <h1 data-i18n-key="headerTitle">Lista de Tarefas</h1>
         <form action="#" method="get" class="input-container" autocomplete="off">
-            <input type="text" id="taskInput" placeholder="Digite uma nova tarefa">
-            <button id="addTask">Adicionar tarefa</button>
+            <input type="text" id="taskInput" data-i18n-key="inputPlaceholder" placeholder="Digite uma nova tarefa">
+            <button id="addTask" data-i18n-key="addTaskButton">Adicionar tarefa</button>
         </form>
         <ul id="taskList"></ul>
     </header>
