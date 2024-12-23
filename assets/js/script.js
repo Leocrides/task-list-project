@@ -24,6 +24,7 @@ const createTaskElement = taskText => {
     const removeButton = document.createElement('button');
     removeButton.className = 'remove-btn';
     removeButton.innerHTML = 'Remover';
+    removeButton.setAttribute('data-i18n-key', 'removeBtn')
     removeButton.addEventListener('click', () => {
         taskItem.remove();
         saveTasks();

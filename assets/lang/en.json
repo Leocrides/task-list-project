@@ -2,5 +2,6 @@
     "pageTitle": "Task List",
     "headerTitle": "Task List",
     "inputPlaceholder": "Enter a new task",
-    "addTaskButton": "Add task"
+    "addTaskButton": "Add task",
+    "removeBtn": "Remove"
 }
