@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const userLanguage = navigator.language || navigator.userLanguage;
     const language = userLanguage.startsWith('en') ? 'en' : 'pt';
     translatePage(language);
+    loadTasks();
 });
 
 addTaskButton.addEventListener('click', addTask);
-document.addEventListener('DOMContentLoaded', loadTasks);
