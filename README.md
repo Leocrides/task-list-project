@@ -22,7 +22,7 @@ Lógica de Programação
 
 A aplicação demonstra boas práticas de desenvolvimento web, incluindo separação de responsabilidades, design responsivo e suporte a internacionalização
 
-##English:
+# English:
 
 Structure and Style  
 
